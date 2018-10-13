@@ -92,12 +92,6 @@ final case class ExecutionPlan[A](state: State[List[Request], Distributor[A]]) {
 
 object ExecutionPlan { self =>
   /**
-   * A distributor is a function (a `Reader` is just a small wrapper around a
-   * single-argument function, but comes with some extra goodies, e.g., type-
-   * class instances such as `Applicative` or `Monad`) that given a mapping of
-   * OpenTSDB requests to results, will **distribute** them back to they
-   * requests' issuers.
-   *
    * A distributor is a [[Reader]] that given a mapping of OpenTSDB requests
    * to results, will **distribute** them back to they requests' issuers.
    *
