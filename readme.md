@@ -7,8 +7,8 @@ to fill these in.
 We'll now proceed to give a small overview of the OpenTSDB database, of the
 assignment and of each of the exercises, in part.
 
-  - [OpenTSDB Overview](#open-t-s-d-b-overview)
-  - [Assignment Overview](#project-overview)
+  - [OpenTSDB Overview](#opentsdb-overview)
+  - [Assignment Overview](#assignment-overview)
   - [Exercises Overview](#exercises-overview)
 
 ## OpenTSDB Overview
@@ -105,7 +105,7 @@ There are five exercises as part of this assignment:
 
   2. **Exercise 2** evaluates your ability to **use** functional abstractions.
   You are required to modify the code in the project's `Main` object to use the
-  by-now-complete [`BatchingOpenTSDB`](./src/main/scala/opentsdb/BatchingOpenTSDB.scala)
+  by-now-complete [`BatchingOpenTSDB`](./src/main/scala/eloquentix/opentsdb/BatchingOpenTSDB.scala)
   client.
 
   3. **Exercise 3** and **Exercise 4** are meant to asses your ability to
