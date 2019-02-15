@@ -21,8 +21,9 @@ for that timestap, such a pair is also called a datapoint. Additionally, one can
 attach tags to each such datapoint.
 
 You can run OpenTSDB locally using the provided [docker-compose.yml](./docker-compose.yml)
-file. Assuming you have already installed Docker and `docker-compose` installed,
-execute the following command:
+file. Assuming you have already installed [Docker](https://www.docker.com/get-started)
+and [Docker Dompose](https://docs.docker.com/compose/install/), execute the following
+command:
 
 ```bash
 $ docker-compose up
